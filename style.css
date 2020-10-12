@@ -324,3 +324,13 @@
     font-weight: bold;
     color: #000000;
 }
+.activity .line {
+    margin-bottom: 40px;
+}
+.line-title {
+    margin-top: 50px;
+    margin-left: 15%;
+}
+.activity .line h2 {
+    font-size: x-large;
+}
