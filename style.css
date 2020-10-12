@@ -374,3 +374,233 @@
 .search-button .submit .search .respons-little{
     display: none;
 }
+@media only screen and (max-width: 1024px) {
+    .logo {
+        width: 30%;
+    }
+    .filter .line {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .filter-item {
+        margin-top: 10px;
+    }
+    .card-c-right {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu ul li a {
+        padding: 35px 20px;
+    }
+    .result .line {
+        flex-direction: column;
+    }
+    .result .card-container {
+        width: 100%;
+        margin-right: 0;
+    }
+    .card-c-right {
+        height: 750px;
+        margin-top: 30px;
+    }
+    .card-container-2 {
+        width: 50%;
+        padding-right: 0;
+    }
+    .list-card-2 {
+        flex-wrap: wrap;
+    }
+    .footer-item {
+        width: 50%;
+    }
+    .filter-item a {
+        margin: 0 5px 0 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .body{
+        margin: 0;
+    }
+    .line{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .section {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header .line {
+        flex-wrap: wrap;
+        
+    }
+    .logo {
+        width: 40%;
+        margin-left: 20px;
+    }
+    .signup-little {
+        width: 50%;
+        display: flex ;
+        margin-top: 18px;       
+    }
+    .cols-100{
+        margin-left: 10px;
+    }
+    .signup-little a {
+        color: #0065FC;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .fa-search:before{
+        color:white;
+        margin-left: 5px;
+    }
+    .menu ul {
+        
+        width: 100%;
+    }
+    .menu ul li {
+        width: 50%;
+    }
+    .menu ul li a {
+        width: 100%;
+        text-align: center;
+        border-top: none;
+        padding: 20px;
+        border-bottom: 2px solid #F2F2F2;
+    }
+    .menu ul li a.active {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+    .filter{
+        padding-top: 10px;
+    }
+    .filter .line {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .filter-text {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .filter-item{
+        margin-left: 10px ;
+        margin-right: 10px;
+    }
+    .respons-big .signup { /*faut disparaitre "s'inscrire" du fichier html de base*/
+        display: none;
+    }
+    .respons-little{
+        display: inline;
+    }
+    .respons-big{
+        display:none;
+    }
+    .info-result{
+        margin-right: 10px;
+    }
+    .search {
+        padding-top: 0;
+    }
+    .search-form {
+        width: 100%;
+    }
+    .search-icon {
+        border-radius: 10px 0 0 10px;
+    }
+    .search-input {
+        width: 70%;
+    }
+    .search-button {
+        width: 13%;
+    }
+    .search-button button {
+        border-radius: 10px;
+    }
+    .result {
+        margin: 0;
+    }
+    .result .line {
+        flex-direction: column-reverse;
+    }
+    .result .card-container {
+        padding: 0;
+        border-radius: 0;
+    }
+    .card-container{
+        background-color:white;
+    }
+    .hebergement{ 
+        margin-top: 50px;
+
+    }
+    .hebergement,
+    .populaire {
+        padding: 0 20px;
+    }
+    .card-c-right{
+        background-color: #F2F2F2;
+    }
+    .x1.card-list {
+        padding: 20px;
+        width: auto;
+        background-color: #F2F2F2;
+    }
+    .x1 .card{
+        height: 150px;
+    }
+    
+    .img-fluid{
+        min-width: 130px;
+    }
+    .card-list {
+        padding: 0 20px;
+        width: auto;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .x3 .card {
+        width: auto;
+    }
+    .stars-Pop{
+        margin-top: 40px;
+    }
+    .seeplus {
+        padding: 0 10px;
+    }
+    .card-container-2 {
+        width: 100%;
+    }
+    .line-title{
+        padding-left: 5px;
+    }
+    .card-container-2 img {
+        height: 100px;
+    }
+    .x3 .card,
+    .card-2-two,
+    .card-2-one {
+        margin: 10px 5px ;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-item {
+        width: auto;
+        
+    }
+}
