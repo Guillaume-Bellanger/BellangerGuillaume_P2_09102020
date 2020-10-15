@@ -1,6 +1,6 @@
-.body{
+body{
     font-family: "Raleway", sans-serif;
-    margin-bottom: 0;
+    margin: 0;
 }
 .line{
     display: flex;
@@ -307,11 +307,15 @@
 .stars {
     margin: 5px 0;
 }
-.stars-Pop , .stars-Pop-2 {
-    margin-top: 90px;
+.stars-Pop{
+   position: absolute;
+   bottom: 10px;
 }
 .populaire {
     margin-left: 9px;
+}
+.quote{
+    position: relative;
 }
 .card-price {
     font-weight: bold;
@@ -398,12 +402,6 @@
     }
     .x1 .card{
         margin-bottom: 80px;
-    }
-    .stars-Pop{
-        margin-top: 30%;
-    }
-    .stars-Pop-2{
-        margin-top: 20% ;
     }
     .img-fluid{
         width: 150px;
@@ -626,10 +624,6 @@
     }
     .x3 .card {
         width: auto;
-    }
-    
-    .stars-Pop{
-        margin-top: 35%;
     }
     .seeplus {
         padding: 0 10px;
