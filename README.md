@@ -1,7 +1,7 @@
 
 L'objectif est d'intégrer la maquette d'un site de planification de vacance nommé "Reservia" (voir l'image ci-dessous).
 
-![maquette web reservia](./images/bureau - 1.png)
+![maquette web reservia]_(./images/bureau-1.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
