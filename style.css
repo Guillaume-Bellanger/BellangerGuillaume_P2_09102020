@@ -265,7 +265,7 @@ body {
   margin: 5px;
   overflow: hidden;
   border: 1px solid#f2f2f2;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .card-2-one img {
   height: 290px;
@@ -283,7 +283,7 @@ body {
   margin: 5px;
   overflow: hidden;
   border: 1px solid #f2f2f2;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .type-2 {
   display: flex;
