@@ -516,9 +516,11 @@ body {
   .search-button {
     position: relative;
     bottom: 15px;
+    right: 15px;
   }
   .search-input {
     height: 53px;
+    width: 20em;
   }
   .search-icon {
     height: 53px;
