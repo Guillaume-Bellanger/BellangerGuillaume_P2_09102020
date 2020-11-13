@@ -194,7 +194,6 @@ body {
   margin-left: 10px;
 }
 .fa-info:before {
-  padding-left: center;
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -236,6 +235,7 @@ body {
   height: 220px;
 }
 .x3 .card:nth-last-child(-n + 3) {
+  /*cible les 3 dernieres cards*/
   margin-bottom: 0;
 }
 .x1 .card {
